@@ -1,7 +1,7 @@
 header {
     /* background-color:rgb(3, 3, 68); */
     background-image: url(bg-img-bluegradient.jpg);
-    padding: 10px 0px;
+    padding: 20px 0px;
     height: 50px;
     border: rgb(1, 1, 44) 5px solid;
     border-radius: 20px;
@@ -21,7 +21,7 @@ header {
     margin-top: -22px;
     text-align: center;
     font-family: cursive;
-    font-size: 20px;
+    font-size: 25px;
     padding-left: 20px;
 }
 .navbar a {
@@ -31,15 +31,24 @@ header {
     text-align: center;
     padding:12px 15px;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 25px;
 }
 .navbar a:hover {
     color: #ffffff;
 }
 .navbar{
-    margin-right: -1000px;
+    margin-left: 180px;
 }
 body{
     background-image: url(homebackground.jpg);
     background-size: cover;
+}
+#name1{
+    margin-left: 180px;
+    margin-top: 18px;
+}
+#logo{
+    margin-left: 15px;
+    height: 70px;
+    margin-top: -12px;
 }
