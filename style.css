@@ -52,3 +52,55 @@ body{
     height: 70px;
     margin-top: -12px;
 }
+.quote{
+    color: white;
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#exp{
+    color: orange;
+}
+.desc{
+    color: white;
+    margin-left: 150px;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+#menu{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background-color: orange;
+    border-radius: 20px;
+    margin-left: 150px;
+    padding: 10px 30px;
+}
+#menu:hover{
+    background-color: darkorange;
+    color: rgba(255, 255, 255, 0.786);
+    box-shadow:  0px 5px 5px orange;
+}
+.icons{
+    color: white;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.fa-solid{
+    font-size: 20px;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cust{
+    margin-top: 10px;
+}
+.icons1{
+    margin-left: 350px;
+    margin-top: -105px;
+    color: white;
+}
+#loca{
+    padding: 10px 15px;
+}
