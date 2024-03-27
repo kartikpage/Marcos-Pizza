@@ -1,0 +1,112 @@
+#pizzahead {
+    background-image: url(bg-img-bluegradient.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+    height: 50px;
+    border: rgb(1, 1, 44) 5px solid;
+    border-radius: 20px;
+    display: flex;
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.name a{
+    color: white;
+    padding: 2px 20px;
+    text-align: center;
+    margin-left: 300px;
+    text-decoration: none;
+}
+.name{
+    margin-top: -22px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    padding-left: 20px;
+}
+.navbar a {
+    float: left;
+    display: flex;
+    color: #dacfcf;
+    text-align: center;
+    padding:12px 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.navbar a:hover {
+    color: #ffffff;
+}
+.navbar{
+    margin-left: 170px;
+}
+#name1{
+    margin-left: 180px;
+    margin-top: 18px;
+}
+#logo{
+    margin-left: 15px;
+    height: 70px;
+    margin-top: -12px;
+}
+#heading{
+    text-align: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(byopbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pizza-builder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.crust, .sauce, .toppings {
+    flex: 1 1 300px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+#errorMessage {
+    color: red;
+    font-weight: bold;
+}
+
+#orderButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#orderButton:hover {
+    background-color: #0069d9;
+}
+.byopbox{
+    backdrop-filter: blur(5px);
+    width: fit-content;
+    margin-left: 450px;
+    border: black 2px solid;
+    margin-top: 20px;
+    padding: 20px 10px;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build Your Own Pizza</title>
+    <link rel="stylesheet" href="pizzastyle.css">
+</head>
+<body>
+    <header id="pizzahead">
+        <a href="index.html"><img id="logo" src="Marcos-logo.png" alt="logo"></a>
+        <div class="name">
+            <h2 id="name1"><a href="index.html">Marco's Pizza</a></h2>
+        </div>
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About us</a>
+            <a href="pizza.html">BYOP</a>
+        </nav>
+    </header>
+    <div class="byopbox">
+        <h1 id="heading">Build Your Dream Pizza!</h1>
+        <div class="pizza-builder">
+            <div class="crust">
+                <h2>Crust</h2>
+                <input type="radio" id="thinCrust" name="crust" value="Thin">
+                <label for="thinCrust">Thin Crust</label><br>
+                <input type="radio" id="thickCrust" name="crust" value="Thick">
+                <label for="thickCrust">Thick Crust</label><br>
+            </div>
+            <div class="sauce">
+                <h2>Sauce</h2>
+                <input type="radio" id="tomatoSauce" name="sauce" value="Tomato">
+                <label for="tomatoSauce">Tomato Sauce</label><br>
+                <input type="radio" id="whiteSauce" name="sauce" value="White">
+                <label for="whiteSauce">White Sauce</label><br>
+            </div>
+            <div class="toppings">
+                <h2>Toppings (Select up to 5)</h2>
+                <input type="checkbox" id="pepperoni" name="toppings" value="Pepperoni">
+                <label for="pepperoni">Pepperoni</label><br>
+                <input type="checkbox" id="mushrooms" name="toppings" value="Mushrooms">
+                <label for="mushrooms">Mushrooms</label><br>
+                <input type="checkbox" id="onions" name="toppings" value="Onions">
+                <label for="onions">Onions</label><br>
+                <input type="checkbox" id="peppers" name="toppings" value="Peppers">
+                <label for="peppers">Green Peppers</label><br>
+                <input type="checkbox" id="sausage" name="toppings" value="Sausage">
+                <label for="sausage">Sausage</label><br>
+                <input type="checkbox" id="olives" name="toppings" value="Olives">
+                <label for="olives">Black Olives</label><br>
+            </div>
+            <button id="orderButton">Order Now!</button>
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+    <script src="pizzascript.js"></script>
+</body>
+</html>
