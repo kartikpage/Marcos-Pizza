@@ -90,24 +90,24 @@ h2 {
   background-color: #f5f5f5;
 }
 .pizza-description {
-  position: absolute;  /* Absolute positioning for hovering effect */
-  width: fit-content;    /* Adjust width based on content */
+  position: absolute;  
+  width: fit-content;    
   padding: 10px;
   background-color: #f5f5f5;
-  opacity: 0;             /* Initially hidden */
-  transition: opacity 0.2s ease-in-out;  /* Smooth fade in/out on hover */
+  opacity: 0;            
+  transition: opacity 0.2s ease-in-out; 
   margin-top: -50px;
   margin-left: 250px;
 }
 
 .pizza-category li:hover .pizza-description {
-  opacity: 1;  /* Show description box on hover */
+  opacity: 1;  
   padding: 10px;
 }
 
 .pizza-category li:hover {
-  transform: scale(1.1); /* Enlarge pizza on hover (optional) */
-  transition: transform 0.2s ease-in-out; /* Smooth enlargement animation */
+  transform: scale(1.1); 
+  transition: transform 0.2s ease-in-out; 
 }
 #hide{
   opacity: 0;

@@ -11,14 +11,13 @@ pizzaItems.forEach(pizza => {
     description.style.opacity = 1;
     description.textContent = `Ingredients: ${pizza.textContent.split("(")[1]}`;
 
-    // Calculate position for description box
     const pizzaRect = pizza.getBoundingClientRect();
     description.style.left = `${pizzaRect.left}px`;
   });
 
   pizza.addEventListener("mouseout", () => {
     description.style.opacity = 0;
-    // Clear content on mouseout to prevent duplicates
+    
     description.textContent = "";
   });
 });
