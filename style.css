@@ -1,6 +1,18 @@
-header {
-    /* background-color:rgb(3, 3, 68); */
+#indexhead {
     background-image: url(bg-img-bluegradient.jpg);
+    padding: 20px 0px;
+    height: 50px;
+    border: rgb(1, 1, 44) 5px solid;
+    border-radius: 20px;
+    display: flex;
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+#abouthead {
+    background-image: url(grey-gradient.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 20px 0px;
     height: 50px;
     border: rgb(1, 1, 44) 5px solid;
@@ -39,7 +51,7 @@ header {
 .navbar{
     margin-left: 180px;
 }
-body{
+#index{
     background-image: url(homebackground.jpg);
     background-size: cover;
 }
@@ -103,4 +115,25 @@ body{
 }
 #loca{
     padding: 10px 15px;
+}
+#about{
+    background-image: url(marcos-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.abouthead{
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.aboutorigin{
+    font-size: 20px;
+    font-family: serif;
+    margin-top: -60px;
+    line-height: 1.8;
+}
+.aboutbox{
+    backdrop-filter: blur(5px);
+    width:fit-content;
+    text-align: center;
+    margin-left: 350px;
 }

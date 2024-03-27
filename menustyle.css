@@ -1,0 +1,114 @@
+#menuhead {
+  background-image: url(bg-img-bluegradient.jpg);
+  padding: 20px 0px;
+  height: 50px;
+  border: rgb(1, 1, 44) 5px solid;
+  border-radius: 20px;
+  display: flex;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.name a{
+  color: white;
+  padding: 2px 20px;
+  text-align: center;
+  margin-left: 300px;
+  text-decoration: none;
+}
+.name{
+  margin-top: -22px;
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+  padding-left: 20px;
+}
+.navbar a {
+  float: left;
+  display: flex;
+  color: #dacfcf;
+  text-align: center;
+  padding:12px 15px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.navbar a:hover {
+  color: #ffffff;
+}
+.navbar{
+  margin-left: 180px;
+}
+#name1{
+  margin-left: 180px;
+  margin-top: 18px;
+}
+#logo{
+  margin-left: 15px;
+  height: 70px;
+  margin-top: -12px;
+}
+#menu1 {
+  background-image: url(menubg.jpg);
+}
+
+#menu {
+  margin: 20px auto;
+  color: black;
+  backdrop-filter: blur(10px);
+  width:fit-content;
+  text-align: center;
+  border: black 2px solid;
+  padding: 0px 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.pizza-category {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.pizza-category li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
+  text-align: left;
+  font-size: 17px;
+}
+
+.pizza-category li:hover {
+  background-color: #f5f5f5;
+}
+.pizza-description {
+  position: absolute;  /* Absolute positioning for hovering effect */
+  width: fit-content;    /* Adjust width based on content */
+  padding: 10px;
+  background-color: #f5f5f5;
+  opacity: 0;             /* Initially hidden */
+  transition: opacity 0.2s ease-in-out;  /* Smooth fade in/out on hover */
+  margin-top: -50px;
+  margin-left: 250px;
+}
+
+.pizza-category li:hover .pizza-description {
+  opacity: 1;  /* Show description box on hover */
+  padding: 10px;
+}
+
+.pizza-category li:hover {
+  transform: scale(1.1); /* Enlarge pizza on hover (optional) */
+  transition: transform 0.2s ease-in-out; /* Smooth enlargement animation */
+}
+#hide{
+  opacity: 0;
+}
